@@ -1,0 +1,26 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace PROYECTO
+{
+    public class Producto
+    {
+        private string Descripcion;
+        private int PrecioUnit;
+        private int Cantidad;
+
+
+
+        public Producto(string descripcion, int precio)
+        {
+            Descripcion = descripcion;
+            PrecioUnit = precio;
+            Cantidad= 0;
+        }
+    }
+
+
+}
